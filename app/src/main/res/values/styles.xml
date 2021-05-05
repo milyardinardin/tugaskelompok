@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="stylebutton1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#B22222</item>
+    </style>
+    <style name="stylebutton2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4682B4</item>
+    </style>
+    <style name="stylebutton3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#B8860B</item>
+    </style>
+    <style name="white" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFF</item>
+    </style>
+
+</resources>

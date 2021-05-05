@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kelompok</string>
+    <string-array name="mahasiswa">
+        <item>Defa Mulya Pratama</item>
+        <item>Faza Nurfaizi</item>
+    </string-array>
+    <string name="pilihan"><b>Pilihan</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

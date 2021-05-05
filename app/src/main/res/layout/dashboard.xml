@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.Dashboard"
+    android:id="@+id/container">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/student1"/>
+
+    <Button
+        android:id="@+id/btnLihatData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_archive_black_24dp"
+        android:text="LIHAT DATA"
+        android:layout_margin="25px"
+        android:width="450px"
+        android:theme="@style/stylebutton1"
+         />
+
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_add_box_black_24dp"
+        android:text="INPUT DATA"
+        android:layout_margin="25px"
+        android:width="450px"
+        android:theme="@style/stylebutton2"/>
+
+    <Button
+        android:id="@+id/btnInformasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_info_black_24dp"
+        android:text="INFORMASI"
+        android:layout_margin="25px"
+        android:width="450px"
+        android:theme="@style/stylebutton3"/>
+
+</LinearLayout>

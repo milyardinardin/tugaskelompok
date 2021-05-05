@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor"/>
+
+        <EditText
+            android:id="@+id/txtUpdateNomor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_create_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"/>
+
+        <EditText
+            android:id="@+id/txtUpdateNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_group_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="Jalaludin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"/>
+
+        <EditText
+            android:id="@+id/tglUpdateLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:drawablePadding="5dp"
+            android:hint="11-07-1997"
+            android:text="11-07-1997"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"/>
+
+        <com.example.kelompok.views.GenderDropdown
+            android:id="@+id/txtUpdateJenkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawableRight="@drawable/ic_down_arrow_24"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="Jenis Kelamin"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"/>
+
+        <EditText
+            android:id="@+id/txtUpdateAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="Rangkasbitung"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@drawable/ic_save_black_24dp"
+        android:text="SIMPAN"
+        android:textColor="@color/red"
+        android:theme="@style/white" />
+
+</RelativeLayout>

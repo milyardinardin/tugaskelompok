@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InformationActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgStudent"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="400px"
+        android:layout_marginBottom="50px"
+        android:src="@drawable/student1" />
+
+    <TextView
+        android:id="@+id/defa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defa Mulya Pratama"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgStudent"
+        />
+
+    <TextView
+        android:id="@+id/faza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faza Nurfai'zi"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/defa"
+        />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XII RPL 1"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/faza"
+        />
+
+</RelativeLayout>

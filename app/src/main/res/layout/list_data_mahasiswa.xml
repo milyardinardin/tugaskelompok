@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.ListDataMahasiswa"
+    android:id="@+id/framerMahasiswa">
+
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+        android:text="INPUT DATA"
+        android:textColor="@color/red"
+        android:theme="@style/white" />
+
+</RelativeLayout>

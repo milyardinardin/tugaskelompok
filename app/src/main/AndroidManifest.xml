@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kelompok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kelompok">
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Dashboard" />
+        <activity
+            android:name=".activities.ListDataMahasiswa"
+            android:parentActivityName=".activities.Dashboard">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Dashboard" />
+        </activity>
+        <activity
+            android:name=".activities.Dialog"
+            android:parentActivityName=".activities.Dashboard">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Dashboard" />
+        </activity>
+        <activity android:name=".activities.DetailData"
+            android:parentActivityName=".activities.ListDataMahasiswa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ListDataMahasiswa" />
+        </activity>
+        <activity
+            android:name=".activities.UpdateData"
+            android:parentActivityName=".activities.ListDataMahasiswa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ListDataMahasiswa" />
+        </activity>
+        <activity
+            android:name=".activities.InformationActivity"
+            android:parentActivityName=".activities.Dashboard">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Dashboard" />
+        </activity>
+    </application>
+
+</manifest>
